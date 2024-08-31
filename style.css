@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  height: 100vh;
+  font-family: "Fraunces", serif;
+  margin: auto;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+.main-container {
+  margin: auto;
+}
+nav {
+  position: relative;
+  top: 100px;
+}
+.logo-container img {
+  width: 90px;
+  margin-left: 20px;
+}
+h1 {
+  color: white;
+  margin-top: 20px;
+  margin-left: 200px;
+  width: 300px;
+}
+.navbar-container {
+  display: flex;
+  gap: 250px;
+}
+.navbar-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar-links ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  position: relative;
+}
+
+.image-header {
+  width: 700px;
+  margin-bottom: 0px;
+}
+.title {
+}
+.brand-container1 {
+  width: 700px;
+  grid-gap: 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.menu-image {
+  width: 350px;
+  height: 350px;
+}
+.our-service,
+.marketing-with-us {
+  margin-left: 40px;
+  margin-top: 40px;
+  font-size: 18px;
+}
+h2 {
+  margin-bottom: 20px;
+}
+.learn-more {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
